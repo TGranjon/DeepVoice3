@@ -11,6 +11,7 @@ Chaque répertoire possède son propre README pour donner plus de détails sur l
 On y trouve les différents répertoires :
   - deepvoice3_by_tg : le synthétiseur Deep Voice 3 fonctionnel en français avec Griffin-Lim ou WaveNet
   - deepvoice3_world : une tentative de mêler Deep Voice 3 et WORLD
+  - evaluation : des fichiers pré et post évaluation
   - merlin : une tentative de faire fonctionner le synthétiseur Merlin sur du français
   - scripts : différents scripts bash ou python pour faire fonctionner tous les programmes
   - tacotron : une version très peu modifiée de Tacotron pour le comparer à Deep Voice 3
