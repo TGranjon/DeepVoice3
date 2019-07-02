@@ -9,9 +9,9 @@ cd ../../deepvoice3_by_tg
 for file in /lium/raid01_b/tgranjon/test/checkpoints/*.pth
 do
 	echo $file
-	# python synthesis.py "$file" <fichier test à synthétiser> <emplacement où sauvegarder les fichiers audio> <preset>
+	# python synthesis.py "$file" <fichier test à synthétiser> <emplacement où sauvegarder les fichiers audio> --preset=<preset>
 	python synthesis.py "$file" tests/test_fr/learn.txt /lium/raid01_b/tgranjon/test/synthesis --preset=presets/deepvoice3_synpaflex.json
-	# Il est possible de sauvegarder le spectrogramme générer avec cette commande.
+	# Il est possible de sauvegarder le spectrogramme généré avec cette commande.
 	#python synthesis_cop.py "$file" tests/test_fr/learn.txt /lium/raid01_b/tgranjon/test/synthesis --preset=presets/deepvoice3_synpaflex.json
 
 done
