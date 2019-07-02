@@ -1,0 +1,13 @@
+Dans ce répertoire doit se trouver tout ce qui est nécessaire au processus d'évaluation après les tests perceptifs.
+Il doit y avoir :
+	- db.csv : la base de données au format CSV exportée via la plateforme d'évaluation
+	- corpus_text.txt : le corpus de test
+	- eval.py : le script Python qui va évaluer.
+
+En lançant la commande python eval.py, le script va se mettre ne marche, étudier les données de db.csv et afficher deux listes, deux matrices et deux figure: 
+	- la liste de Taux d'Erreur Mot par système
+	- la liste de score de préférence par système, y compris le score neutre
+	- la matrice de préférence système par système
+	- la matrice de préférence système en fonction du nombre de mots dans l'extrait
+	- un histogramme de la préférence pour chaque paire de système
+	- un histogramme de la préférence par rapport au nombre de mots dans l'extrait
