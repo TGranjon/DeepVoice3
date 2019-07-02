@@ -2,6 +2,9 @@
 
 # Deepvoice3_pytorch
 
+### Original source
+Work is from https://github.com/r9y9/deepvoice3_pytorch
+
 [![PyPI](https://img.shields.io/pypi/v/deepvoice3_pytorch.svg)](https://pypi.python.org/pypi/deepvoice3_pytorch)
 [![Build Status](https://travis-ci.org/r9y9/deepvoice3_pytorch.svg?branch=master)](https://travis-ci.org/r9y9/deepvoice3_pytorch)
 [![Build status](https://ci.appveyor.com/api/projects/status/8eurjakfaofbr24k?svg=true)](https://ci.appveyor.com/project/r9y9/deepvoice3-pytorch)
@@ -14,7 +17,7 @@ PyTorch implementation of convolutional networks-based text-to-speech synthesis 
 
 Audio samples are available at https://r9y9.github.io/deepvoice3_pytorch/.
 
-This fork have for goal to adapt DeepVoice 3 for french corpus SynPaFlex and both WORLD and WaveNet vocoders.
+This fork have for goal to adapt DeepVoice 3 for french corpus SynPaFlex and WORLD vocoder.
 
 World version based on [Geneing's work](https://github.com/geneing/deepvoice3_pytorch).
 
