@@ -2,6 +2,9 @@
 
 ## Merlin: The Neural Network (NN) based Speech Synthesis System
 
+### Original source
+Work is from https://github.com/CSTR-Edinburgh/merlin
+
 This repository contains the Neural Network (NN) based Speech Synthesis System  
 developed at the Centre for Speech Technology Research (CSTR), University of 
 Edinburgh. 
