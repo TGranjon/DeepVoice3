@@ -14,9 +14,7 @@ PyTorch implementation of convolutional networks-based text-to-speech synthesis 
 
 Audio samples are available at https://r9y9.github.io/deepvoice3_pytorch/.
 
-This fork have for goal to adapt DeepVoice 3 for french corpus SynPaFlex and both WORLD and WaveNet vocoders.
-
-World version based on [Geneing's work](https://github.com/geneing/deepvoice3_pytorch).
+This fork have for goal to adapt DeepVoice 3 for french corpus SynPaFlex and WaveNet vocoder.
 
 ## Notes on hyper parameters
 
