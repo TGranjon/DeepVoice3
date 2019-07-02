@@ -1,5 +1,8 @@
 # PyWorldVocoder - A Python wrapper for World Vocoder
 
+### Original source
+Work is from https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder
+
 
 | **`Linux`** | **`Windows`** |
 |-----------------|-----------|
