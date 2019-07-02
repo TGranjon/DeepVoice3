@@ -1,0 +1,14 @@
+{
+	"nbSteps": 40,
+	"nbSystemDisplayed": 2,
+	"prefix": "",
+	"headersCSV": ["text", "speech"],
+
+	"name": "Test Perceptif A",
+	"author": "LIUM",
+	"description": "Évaluation de différents modèles de synthèse neuronale en Français",
+	"nbQuestions": 2,
+	"nbFixedPosition": 0,
+	"nbIntroductionSteps": 1,
+	"useMedia": ["speech"]
+}
