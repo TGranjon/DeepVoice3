@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Lance l'apprenstissage en partant d'un checkpoint spécifié.
-# python train.py --preset=<preset> --data-root=<emplacement des données pré-traitées> <emplacement où sauvegarder les checkpoints> <emplacement où sauvegarder les logs> <emplacement du checkpoint duquel partir>
+# python train.py --preset=<preset> --data-root=<emplacement des données pré-traitées> --checkpoint-dir=<emplacement où sauvegarder les checkpoints> --log-event-path=<emplacement où sauvegarder les logs> <emplacement du checkpoint duquel partir>
 
 cd ../../deepvoice3_by_tg
 
