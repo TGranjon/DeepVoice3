@@ -1,5 +1,8 @@
 # tacotron_pytorch
 
+### Original source
+Work is from https://github.com/r9y9/tacotron_pytorch
+
 [![Build Status](https://travis-ci.org/r9y9/tacotron_pytorch.svg?branch=master)](https://travis-ci.org/r9y9/tacotron_pytorch)
 
 PyTorch implementation of [Tacotron](https://arxiv.org/abs/1703.10135) speech synthesis model.
