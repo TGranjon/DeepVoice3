@@ -13,6 +13,7 @@ datasets
 testout
 .idea
 .vscode/
+.swp
 
 # Created by https://www.gitignore.io
 
