@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Transforme les fichiers Roots en csv.
+
+# Je n'ai pas trouvé de meilleur moyen que de mettre manuellement tous les fichiers que l'on veut récupérer.
+# python fromRoots2DeepVoice3.py <emplacement du fichier Roots> <emplacement où écrire>
+
 python fromRoots2DeepVoice3.py /lium/corpus/synthese/SynPaFlex-1.1/emotional_synpaflex_corpus/data/chevalier_filledupirate_001/ /lium/raid01_b/tgranjon/synpaflex/synpaflex.csv
 python fromRoots2DeepVoice3.py /lium/corpus/synthese/SynPaFlex-1.1/emotional_synpaflex_corpus/data/chevalier_filledupirate_002/ /lium/raid01_b/tgranjon/synpaflex/synpaflex.csv
 python fromRoots2DeepVoice3.py /lium/corpus/synthese/SynPaFlex-1.1/emotional_synpaflex_corpus/data/chevalier_filledupirate_003/ /lium/raid01_b/tgranjon/synpaflex/synpaflex.csv
@@ -85,6 +90,10 @@ python fromRoots2DeepVoice3.py /lium/corpus/synthese/SynPaFlex-1.1/emotional_syn
 python fromRoots2DeepVoice3.py /lium/corpus/synthese/SynPaFlex-1.1/emotional_synpaflex_corpus/data/sue_mysteresdeparis_01_27/ /lium/raid01_b/tgranjon/synpaflex/synpaflex.csv
 python fromRoots2DeepVoice3.py /lium/corpus/synthese/SynPaFlex-1.1/emotional_synpaflex_corpus/data/zeltner_contes_02_18/ /lium/raid01_b/tgranjon/synpaflex/synpaflex.csv
 
+# Retire les extraits supérieurs à 10 secondes.
+
 bash removeLogWavsFromMetadata.sh /lium/raid01_b/tgranjon/synpaflex/synpaflex.csv
 
+# Attention : le fichier CSV crée plus tôt sera à l'emplacement spécifié mais celui qui va être crée se trouvera au même endroit que le script.
+# On le déplace donc.
 mv synpaflex-metadata-10s.csv /lium/raid01_b/tgranjon/synpaflex
