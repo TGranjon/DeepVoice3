@@ -3,6 +3,12 @@
 import torch
 import glob
 
+# Crée un checkpoint moyen.
+# Il faut modifier plusieurs adresses dans le script.
+# Puis lancer la commande 'python average.py'.
+# Le checkpoint average.pth sera sauvegardé à l'emplacement du script.
+
+# Il faut indiquer l'adresse du répertoire checkpoint du système qui nous intéresse.
 checkpoint_path = glob.glob("/lium/raid01_b/tgranjon/dv3/tiers/checkpoints/average/*.pth")
 
 def load(checkpoint_path):
@@ -13,6 +19,7 @@ checkpoints = []
 for path in checkpoint_path:
     print(path)
     checkpoints.append(load(path))
+# Il faut donner l'adresse d'un checkpoint parmi ceux présent (utilisé pour récupérer l'architecture d'un fichier .pth).
 average = load("/lium/raid01_b/tgranjon/dv3/tiers/checkpoints/checkpoint_step000045000.pth")
 print("Starting average")
 for key in average["state_dict"].keys():
