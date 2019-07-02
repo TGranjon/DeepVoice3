@@ -17,6 +17,13 @@ On y trouve les différents répertoires :
   - tacotron : une version très peu modifiée de Tacotron pour le comparer à Deep Voice 3
   - wavenet_vocoder : le vocodeur WaveNet, fonctionnel sur du français
   - world_vocoder : le vocodeur WORLD, très peu modifié
+  - synpaflex-metadata-10s.csv : les données d'où partir pour le pré-traitement (_les wavs ne sont pas fournis_)
+
+## Différents corpus
+
+Le fichier synpaflex-metadata-10s.csv fourni a été conçu à partir des textes du corpus emotional de SynPaFlex auxquels ont été ajoutés les extraits manquants.
+Pour obtenir la version "Demi" qui contient 50% du corpus, il suffit d'utiliser la commande `awk NR%2 synpaflex-metadata-10s.csv > <nom du fichier de sortie>`.
+Pour obtenir la version "Tiers" qui contient 75% du corpus, il suffit d'utiliser la commande `awk NR%3 synpaflex-metadata-10s.csv > <nom du fichier de sortie>`.
   
 ## Crédits
 
