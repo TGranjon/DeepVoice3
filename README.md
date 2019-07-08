@@ -23,7 +23,7 @@ On y trouve les différents répertoires :
 
 Le fichier synpaflex-metadata-10s.csv fourni a été conçu à partir des textes du corpus emotional de SynPaFlex auxquels ont été ajoutés les extraits manquants.
 Pour obtenir la version "Demi" qui contient 50% du corpus, il suffit d'utiliser la commande `awk NR%2 synpaflex-metadata-10s.csv > <nom du fichier de sortie>`.
-Pour obtenir la version "Tiers" qui contient 75% du corpus, il suffit d'utiliser la commande `awk NR%3 synpaflex-metadata-10s.csv > <nom du fichier de sortie>`.
+Pour obtenir la version "Quart" qui contient 75% du corpus, il suffit d'utiliser la commande `awk NR%4 synpaflex-metadata-10s.csv > <nom du fichier de sortie>`.
   
 ## Crédits
 
